@@ -36,4 +36,4 @@ const base64 = await drawQrcode({ text: "hello world!" })
 
 
 ## 参考
-本想目参考了 [weapp-qrcode-canvas-2d](https://github.com/DoctorWei/weapp-qrcode-canvas-2d)
+本项目参考了 [weapp-qrcode-canvas-2d](https://github.com/DoctorWei/weapp-qrcode-canvas-2d)
