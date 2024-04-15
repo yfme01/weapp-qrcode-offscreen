@@ -100,7 +100,7 @@ function drawQrcode(options = {}) {
         ctx.fillStyle = background;
         ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 
-        const moduleSize = (canvasWidth - padding * 2 * dpr) / qrcode.getModuleCount();
+        const moduleSize = Math.ceil((canvasWidth - padding * 2 * dpr) / qrcode.getModuleCount());
 
         // 绘制二维码模块
         qrcode.modules.forEach((row, rowIndex) => {
